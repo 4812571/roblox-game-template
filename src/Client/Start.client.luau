@@ -1,8 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local StarterPlayer = game:GetService("StarterPlayer")
 
 local Packages = ReplicatedStorage:WaitForChild("Packages")
-local Client = StarterPlayer.StarterPlayerScripts:WaitForChild("Client")
+local Client = ReplicatedStorage:WaitForChild("Client")
 
 local Loader = require(Packages.Loader)
 
